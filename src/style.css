@@ -2,3 +2,59 @@
     margin: 0;
     padding: 0;
 }
+main{
+    height: 70vh;
+    /* width: 100vw; */
+    background-image: url("./../asset/images/bg.jpg");
+    object-fit: cover;
+    position: relative;
+}
+.backgroundblack{
+    height: 70vh;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 20vw;
+}
+nav img{
+    z-index: 1;
+}
+.nav-buttons{
+    z-index: 1;
+}
+.red-si{
+    background-color: red;
+    color: white;
+    margin: 0px 10px;
+    
+}
+.btn{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+}
+main .content-main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+}
+.content-main> :first-child{
+    font-size: x-large;
+    font-weight: 700;
+    width: 250px;   
+}
