@@ -1,2 +1,2 @@
 # Netflix-Clone
-This is the my first clone of my web development Journey
+This is my first clone project of my web development Journey
